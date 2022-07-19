@@ -25,7 +25,9 @@ namespace Empresa
                 switch (opcion) //Menu principal
                 {
                     case 1:
-                    Sistema.MenuActivoFijo();
+                    Sistema.MenuEmpleado();
+                    opcion = int.Parse(Console.ReadLine());
+                    
                         switch (opcion) //  Menu de Activos Fijos
                         {
                             case 1:
@@ -47,7 +49,10 @@ namespace Empresa
                         break;
 
                     case 2: // Menu de Empleados
-                    Sistema.MenuEmpleado();
+                    Sistema.MenuActivoFijo();
+
+                    opcion = int.Parse(Console.ReadLine());
+                    
                         switch (opcion)
                         {
                             case 1:
