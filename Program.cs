@@ -20,13 +20,30 @@ namespace Empresa
                 Sistema.Titulo("Seleccione una opción", 3);
                 opcion = int.Parse(Console.ReadLine());
 
-                switch (opcion)
+                switch (opcion) //Menu principal
                 {
                     case 1:
+                        switch (opcion) //  Menu de Activos Fijos
+                        {
+                            case 1:
+                                break;
 
+                            case 2:
+                                break;
+
+                            case 3:
+                                break;
+
+                            case 4:
+                                break;
+
+                            case 5:
+                                flag = false;
+                                break;
+                        }
                         break;
 
-                    case 2:
+                    case 2: // Menu de Empleados
                         switch (opcion)
                         {
                             case 1:
