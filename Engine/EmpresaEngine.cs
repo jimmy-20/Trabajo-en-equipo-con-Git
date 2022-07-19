@@ -28,5 +28,24 @@ namespace Empresa.Engine
 
             return listaEmpleados.OrderBy(e => e.IdEmpleado).Take(5).ToList();
         }
+
+        #region CRUD
+        private static void Agregar(){
+
+        }
+
+        private List<Empleado> Ver(){
+            return Empleados;
+        }
+
+        private static void Actualizar(){
+
+        }
+
+        private static void Eliminar(){
+
+        }
+
+        #endregion
     }
 }
