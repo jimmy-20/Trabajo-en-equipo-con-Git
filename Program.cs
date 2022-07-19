@@ -8,6 +8,7 @@ namespace Empresa
     {
         static void Main()
         {
+            
             EmpresaEngine engine = new EmpresaEngine();
             bool flag = true;
             int opcion = 0;
@@ -15,6 +16,7 @@ namespace Empresa
             Console.WriteLine("Bienvenido!");
             do
             {
+                Console.WriteLine();
                 Sistema.Titulo("MENU", 1);
                 Sistema.MenuPrincipal();
                 Sistema.Titulo("Seleccione una opción", 3);
@@ -23,6 +25,7 @@ namespace Empresa
                 switch (opcion) //Menu principal
                 {
                     case 1:
+                    Sistema.MenuActivoFijo();
                         switch (opcion) //  Menu de Activos Fijos
                         {
                             case 1:
@@ -38,12 +41,13 @@ namespace Empresa
                                 break;
 
                             case 5:
-                                flag = false;
+                                
                                 break;
                         }
                         break;
 
                     case 2: // Menu de Empleados
+                    Sistema.MenuEmpleado();
                         switch (opcion)
                         {
                             case 1:
@@ -59,12 +63,13 @@ namespace Empresa
                                 break;
 
                             case 5:
-                                flag = false;
+                                ;
                                 break;
                         }
                         break;
 
                     case 3:
+                    flag = false;
                         break;
 
                     default:

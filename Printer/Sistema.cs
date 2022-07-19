@@ -5,7 +5,9 @@ namespace Empresa.Printer
     {
 
         public static void MenuPrincipal(){
-            
+            WriteLine("1. Empleados");
+            WriteLine("2. ActivoFijos");
+            WriteLine("3. Salida");
         }
 
         public static void MenuActivoFijo(){
@@ -16,6 +18,7 @@ namespace Empresa.Printer
             WriteLine("2. Editar empleado");
             WriteLine("3. Actualizar");
             WriteLine("4. Borrar");
+            WriteLine("5. Salir");
         }
 
         public static void Titulo(string cad, int opcion){
