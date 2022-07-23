@@ -89,6 +89,7 @@ AppPackages/
 # Others
 sql/
 *.Cache
+*.exe
 ClientBin/
 [Ss]tyle[Cc]op.*
 ![Ss]tyle[Cc]op.targets
@@ -131,3 +132,5 @@ $RECYCLE.BIN/
 .DS_Store
 
 _NCrunch*
+
+/obj

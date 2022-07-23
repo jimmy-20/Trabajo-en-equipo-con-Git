@@ -36,6 +36,7 @@ namespace Empresa
                                 break;
 
                             case 2:
+                            engine.empleadoServices.Visualizar();
                                 break;
 
                             case 3:

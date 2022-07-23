@@ -1,37 +1,24 @@
-using System.Collections.Generic;
-using Empresa.Dao;
-using Empresa.Poco;
-
 namespace Empresa.Services
 {
-    public class EmpleadoServices : ICrud<Empleado>
+    public class EmpleadoServices
     {
-        public List<Empleado> empleados{private get; set;}
+        public EmpleadoData Data{get;set;}
+        public EmpleadoServices() => Data = new EmpleadoData();
 
-        public EmpleadoServices(){
-            if (empleados ==  null){
-                empleados = new List<Empleado>();
-            }
+        public void Agregar(){
+
         }
 
-        public void Agregar(Empleado t)
-        {
-            empleados.Add(t);
+        public void Editar(){
+
         }
 
-        public IEnumerable<Empleado> Visualizar()
-        {
-            return empleados;
+        public void Visualizar(){
+            Printer.Sistema.Imprimir(Data.Visualizar());
         }
 
-        public void Actualizar(Empleado t)
-        {
-            throw new System.NotImplementedException();
-        }
+        public void Eliminar(){
 
-        public bool Eliminar(int id)
-        {
-            throw new System.NotImplementedException();
         }
     }
 }

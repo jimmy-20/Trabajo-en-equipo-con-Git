@@ -1,4 +1,6 @@
 using System.Collections;
+using System.Collections.Generic;
+using Empresa.Poco;
 using static System.Console;
 namespace Empresa.Printer
 {
@@ -40,6 +42,20 @@ namespace Empresa.Printer
                 case 3:
                 WriteLine(">>"+cad);
                 break;
+            }
+        }
+
+        public static void Imprimir(IEnumerable<ActivoFijo> lista){
+
+        }
+
+        public static void Imprimir(IEnumerable<Empleado> lista){
+            WriteLine("IdEmpleado\tNombre\tApellido\tRol\tEmpleado");
+            WriteLine("======================================================");
+            foreach (Empleado e in lista)
+            {
+                WriteLine($"Id: {e.IdEmpleado} \nNombre: {e.Nombre} \nApellido: {e.Apellido} \nRol: {e.Rol}");
+                WriteLine("");
             }
         }
     }

@@ -1,39 +1,26 @@
-using System.Collections.Generic;
-using Empresa.Dao;
-using Empresa.Poco;
+using Empresa.Data;
 
 namespace Empresa.Services
 {
-    public class ActivoFijoServices : ICrud<ActivoFijo>
+    public class ActivoFijoServices
     {
-        public List<ActivoFijo> activoFijos {private get;set;}
+        public ActivoFijoData Data{get;set;}
+        public ActivoFijoServices() => Data = new ActivoFijoData();
 
-        public ActivoFijoServices(){
-            if (activoFijos == null){
-                activoFijos = new List<ActivoFijo>();
-            }
+        public void Agregar(){
+
         }
 
-        public void Agregar(ActivoFijo t)
-        {
-            activoFijos.Add(t);
+        public void Visualizar(){
+
         }
 
-        public IEnumerable<ActivoFijo> Visualizar()
-        {
-            throw new System.NotImplementedException();
+        public void Actualizar(){
+
         }
 
-        public void Actualizar(ActivoFijo t)
-        {
-            throw new System.NotImplementedException();
-        } 
+        public void Eliminar(){
 
-        public bool Eliminar(int id)
-        {
-            throw new System.NotImplementedException();
         }
-
-     
     }
 }
