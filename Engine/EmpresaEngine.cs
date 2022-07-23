@@ -3,17 +3,21 @@ using System.Collections.Generic;
 using System.Linq;
 using Empresa.Poco;
 using Empresa.Printer;
+using Empresa.Services;
 
 namespace Empresa.Engine
 {
     class EmpresaEngine
     {
-        private List<Empleado> Empleados{get;set;}
+        private EmpleadoServices empleadoServices;
+        private ActivoFijoServices  activoFijoServices;
         public EmpresaEngine(){
             Inicializar();
         }
 
-        private void Inicializar() => Empleados = loadEmpleados();
+        private void Inicializar() {
+
+        }
 
         public List<Empleado> loadEmpleados(){
             string[] nombres = {"Pablo,Pedro,Enrique"};
@@ -29,23 +33,20 @@ namespace Empresa.Engine
             return listaEmpleados.OrderBy(e => e.IdEmpleado).Take(5).ToList();
         }
 
-        #region CRUD
-        private static void Agregar(){
+        public List<ActivoFijo> loadActivosFijos(){
+            string[] nombres = {"Computadora de escritorio","Silla de oficina","Escritorio","Camión","Camioneta","Servidor"};
+            double[] montos = {2000,3000,4500,5300,400};
+            double[] VResidual = {0,50,100,300};
 
+            var listaActivosFijos =
+            from n1 in nombres
+            from m1 in montos
+            from vr in VResidual
+            select new ActivoFijo{Nombre = n1, Monto = m1, ValorResidual = vr};
+
+            return listaActivosFijos.OrderBy(a => a.IdActivoFijo).Take(4).ToList();
         }
 
-        private List<Empleado> Ver(){
-            return Empleados;
-        }
-
-        private static void Actualizar(){
-
-        }
-
-        private static void Eliminar(){
-
-        }
-
-        #endregion
+        
     }
 }

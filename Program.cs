@@ -21,12 +21,14 @@ namespace Empresa
                 Sistema.MenuPrincipal();
                 Sistema.Titulo("Seleccione una opción", 3);
                 opcion = int.Parse(Console.ReadLine());
+                Console.WriteLine();
 
                 switch (opcion) //Menu principal
                 {
                     case 1:
                     Sistema.MenuEmpleado();
                     opcion = int.Parse(Console.ReadLine());
+                    Console.WriteLine();
                     
                         switch (opcion) //  Menu de Activos Fijos
                         {
@@ -50,8 +52,8 @@ namespace Empresa
 
                     case 2: // Menu de Empleados
                     Sistema.MenuActivoFijo();
-
                     opcion = int.Parse(Console.ReadLine());
+                    Console.WriteLine();
                     
                         switch (opcion)
                         {

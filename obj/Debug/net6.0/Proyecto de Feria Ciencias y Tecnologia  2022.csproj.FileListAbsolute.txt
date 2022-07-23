@@ -1,0 +1,15 @@
+C:\Users\Pc\Desktop\JASO\UNI\Proyecto de Feria Ciencias y Tecnologia  2022\bin\Debug\net6.0\Proyecto de Feria Ciencias y Tecnologia  2022.exe
+C:\Users\Pc\Desktop\JASO\UNI\Proyecto de Feria Ciencias y Tecnologia  2022\bin\Debug\net6.0\Proyecto de Feria Ciencias y Tecnologia  2022.deps.json
+C:\Users\Pc\Desktop\JASO\UNI\Proyecto de Feria Ciencias y Tecnologia  2022\bin\Debug\net6.0\Proyecto de Feria Ciencias y Tecnologia  2022.runtimeconfig.json
+C:\Users\Pc\Desktop\JASO\UNI\Proyecto de Feria Ciencias y Tecnologia  2022\bin\Debug\net6.0\Proyecto de Feria Ciencias y Tecnologia  2022.dll
+C:\Users\Pc\Desktop\JASO\UNI\Proyecto de Feria Ciencias y Tecnologia  2022\bin\Debug\net6.0\Proyecto de Feria Ciencias y Tecnologia  2022.pdb
+C:\Users\Pc\Desktop\JASO\UNI\Proyecto de Feria Ciencias y Tecnologia  2022\obj\Debug\net6.0\Proyecto de Feria Ciencias y Tecnologia  2022.csproj.AssemblyReference.cache
+C:\Users\Pc\Desktop\JASO\UNI\Proyecto de Feria Ciencias y Tecnologia  2022\obj\Debug\net6.0\Proyecto de Feria Ciencias y Tecnologia  2022.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pc\Desktop\JASO\UNI\Proyecto de Feria Ciencias y Tecnologia  2022\obj\Debug\net6.0\Proyecto de Feria Ciencias y Tecnologia  2022.AssemblyInfoInputs.cache
+C:\Users\Pc\Desktop\JASO\UNI\Proyecto de Feria Ciencias y Tecnologia  2022\obj\Debug\net6.0\Proyecto de Feria Ciencias y Tecnologia  2022.AssemblyInfo.cs
+C:\Users\Pc\Desktop\JASO\UNI\Proyecto de Feria Ciencias y Tecnologia  2022\obj\Debug\net6.0\Proyecto de Feria Ciencias y Tecnologia  2022.csproj.CoreCompileInputs.cache
+C:\Users\Pc\Desktop\JASO\UNI\Proyecto de Feria Ciencias y Tecnologia  2022\obj\Debug\net6.0\Proyecto de Feria Ciencias y Tecnologia  2022.dll
+C:\Users\Pc\Desktop\JASO\UNI\Proyecto de Feria Ciencias y Tecnologia  2022\obj\Debug\net6.0\refint\Proyecto de Feria Ciencias y Tecnologia  2022.dll
+C:\Users\Pc\Desktop\JASO\UNI\Proyecto de Feria Ciencias y Tecnologia  2022\obj\Debug\net6.0\Proyecto de Feria Ciencias y Tecnologia  2022.pdb
+C:\Users\Pc\Desktop\JASO\UNI\Proyecto de Feria Ciencias y Tecnologia  2022\obj\Debug\net6.0\Proyecto de Feria Ciencias y Tecnologia  2022.genruntimeconfig.cache
+C:\Users\Pc\Desktop\JASO\UNI\Proyecto de Feria Ciencias y Tecnologia  2022\obj\Debug\net6.0\ref\Proyecto de Feria Ciencias y Tecnologia  2022.dll

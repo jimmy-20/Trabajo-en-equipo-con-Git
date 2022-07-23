@@ -1,3 +1,4 @@
+using System.Collections;
 using static System.Console;
 namespace Empresa.Printer
 {
@@ -11,12 +12,16 @@ namespace Empresa.Printer
         }
 
         public static void MenuActivoFijo(){
-
+            WriteLine("1. Agregar Activo Fijo");
+            WriteLine("2. Visualizar");
+            WriteLine("3. Actualizar Activo");
+            WriteLine("4. Borrar");
+            WriteLine("5. Salir");
         }
         public static void MenuEmpleado(){
             WriteLine("1. Agregar empleado");
-            WriteLine("2. Editar empleado");
-            WriteLine("3. Actualizar");
+            WriteLine("2. Visualizar");
+            WriteLine("3. Actualizar Empleado");
             WriteLine("4. Borrar");
             WriteLine("5. Salir");
         }
