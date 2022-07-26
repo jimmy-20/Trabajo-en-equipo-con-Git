@@ -30,11 +30,11 @@ namespace Empresa
                     opcion = int.Parse(Console.ReadLine());
                     Console.WriteLine();
                     
-                        switch (opcion) //  Menu de Activos Fijos
+                        switch (opcion) //  Menu de Empleados
                         {
                             case 1:
                                 break;
-
+                            
                             case 2:
                             engine.empleadoServices.Visualizar();
                                 break;
@@ -51,7 +51,7 @@ namespace Empresa
                         }
                         break;
 
-                    case 2: // Menu de Empleados
+                    case 2: // Menu de ActivoFijo
                     Sistema.MenuActivoFijo();
                     opcion = int.Parse(Console.ReadLine());
                     Console.WriteLine();
